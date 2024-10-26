@@ -15,3 +15,5 @@ wait.php登陆方式也是同理
 如有问题请联系QQ3589067134
 # 源码地址
 [http://github.com/wmknb/theicp](http://github.com/wmknb/theicp "http://github.com/wmknb/theicp")
+
+# 原版为被我更改的源码因为隐私原因，无法正常给予！我们为此十分抱歉
