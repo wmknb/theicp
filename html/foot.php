@@ -1,0 +1,5 @@
+<div id="web_bg"><img src="static/picture/bg.png"></div>
+<div class="modal fade bs-play-modal-md" id="playModal" tabindex="-1" role="dialog" aria-labelledby="playmodal"><div class="modal-dialog modal-md" style="max-width:350px;margin:0 auto"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" id="closemodal">×</span></button><h4 class="modal-title"><span style="margin-right:5px;top:3px;color:red" class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></h4></div><div class="modal-body" style="text-align:center"><p><span class="glyphicon glyphicon-ok okico" aria-hidden="true"></span></p><p></p></div></div></div></div>
+<script src="static/js/canvas-nest.min.js"></script><script src="static/js/script1.js"></script>
+</body>
+</html>

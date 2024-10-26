@@ -1,0 +1,68 @@
+html,
+body,
+#app {
+    max-width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+    background: url('/img/sur.jpg') no-repeat center;
+
+    background-size: cover;
+    overflow: auto;
+}
+
+.life {
+    margin-bottom: 0;
+}
+
+button {
+    outline: none;
+}
+
+.alert-tip {
+    /* display: none; */
+    text-align: center;
+}
+
+#my-core {
+    display: none;
+}
+
+.progress {
+    margin: 0;
+}
+
+.layout-container {
+    margin-bottom: 10px;
+}
+
+#statistics{
+    margin-bottom: 8px;
+    padding: 4px 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+}
+.videolist{width: 100%;display: inline-block;padding-bottom:0;}.videolist a {margin: 0 5px 10px;padding: 10px;background: #fff;color: #000;border-radius: 4px;width: calc(10% - 10px);text-align: center;
+}.videolist a.curr,.videolist a:hover{background:#2F71AA;color:#fff;padding:10px;text-decoration:none;}.fixsearch{position:fixed;top:52px;left:0;height:calc(100% - 52px);border-radius:0;}
+.listbox{width: 100%;display: flex;flex-wrap: wrap;}
+.morelist{display:none;background:#FF0033;border: 1px solid #fff;text-align: center;color: #fff;padding: 10px;cursor: pointer;font-size:16px;border-radius:4px;}
+.morelist:hover{background:#FF0033;}
+.closemode{height:100px; overflow:hidden}
+.listimg{position:relative}
+.listimg .bg{background:rgb(0 0 0 / 0.5);width:calc(100% - 40px);height: 25px;bottom: 25px;z-index: 9;position:absolute;}
+.listimg .title{z-index:10;position:absolute;width:calc(100% - 50px);height:25px;bottom:22px;font-size:14px;color:#fff;text-align:center;margin:0 5px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+.listimg img{min-height:200px;max-height:200px;min-width:160px}
+@media screen and (max-width: 799px){
+#wrap{margin:30px 10px 0 !important}
+video{max-height:200px}#menu{padding:0 15px}
+.videolist a{margin:0 10px 10px !important;width:calc(20% - 20px);text-align:center}
+.movietime,.movietimes{display:none}
+.listimg img{min-width:100%}
+.listbox{max-height:300px;overflow-y:auto;}
+}
+@media screen and (max-width: 660px){
+.videolist a{width:calc(25% - 20px);}
+}
+@media screen and (max-width: 460px){
+.videolist a{width:calc(33% - 20px);}
+}

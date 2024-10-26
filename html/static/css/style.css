@@ -1,0 +1,95 @@
+
+body { background-color: #edf1f5 }
+#web_bg { left: 0; bottom: 0; position: absolute; width: 100%; height: 310px; z-index: -9999 }
+#web_bg img { position: fixed; bottom: 0; left: 0; width: 100%; height: 310px }
+#wrap { max-width:1200px !important; margin-top: 30px !important; }
+#menu { max-width:1200px !important; padding: 0; }
+.header{background-color:#fff;min-height:80px}
+#logo{height:80px}
+#logo img{max-height:100%}
+.navbar-nav>li>a{height:100%;line-height:50px}
+.navbar-toggle{margin-top:22px}
+.thumbnail .caption h3{text-align:center;margin-top:10px;font-size:16px}
+.thumbnail .caption p{text-align:center;font-size:12px}
+.footer{text-align:center;padding:10px;color:#a94442;}
+a{color:#a94442}
+audio, video { width: 100%; max-height: 550px; background: rgba(0,0,0,0.9) }
+button:focus { border: 0 }
+.btn-default.focus, .btn-default:focus { color: #fff; background-color: #03A9F4; border-color: #03a9f4; }
+#playModal { margin-top: 210px }
+.input-group { width: 100%; margin-bottom: 10px !important }
+.input-group button { width: 100%; background: #00aff0; color: #fff; font-size: 16px; border: 0; padding: 10px 0; margin: 0 auto; float: none; display: block !important; }
+.input-group button:hover { background: #bc612c !important; color: #fff !important }
+.clickcopy { cursor: pointer; background-color: #5cb85c; border: 1px solid #5cb85c; color: #fff; }
+.clickcopy:hover { background-color: #53a5fa; border: 1px solid #53a5fa; }
+input::selection { background: #fff; color: #000; }
+input::-moz-selection {
+background:#fff;
+color:#000;
+}
+.okico { color: #9c3; border: 2px solid #9c3; font-size: 36px; padding: 10px; border-radius: 60px; }
+.thumbnail{overflow:hidden;}
+.thumbnail a>img, .thumbnail>img{width:100%;transition: all .3s ease-in-out;}
+.thumbnail img:hover{ opacity:0.7}
+.indexlinks {
+    background: #fff;
+    display: inline-block;
+    width: calc(100% + 30px);
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin: 10px -15px;
+}
+.indexlinks .title {
+    font-size: 16px;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+.indexlinks ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+.indexlinks ul li{list-style:none;margin:0 10px 10px 0;float:left}
+.indexlinks ul li a{}
+.diylink{margin:20px auto}
+.diylink ul{list-style:none;padding:0;margin:0;}
+.diylink ul li{list-style:none;padding:0;margin:0 0 15px 0;font-size:16px}
+.diylink ul li span{font-weight:bold;}
+.diylink ul li a{margin:0 10px;font-size:14px}
+.thumbnail .caption p{display:none}
+.thumbnail .caption h3{font-size:16px}
+.list-item{margin:0}
+@media (min-width: 1200px){
+ .col-lg-3 {width: 15.95%;margin: 0 10px 10px 0;padding:0;overflow: hidden;}
+ .thumbnail { max-height: 190px;margin-bottom:0;}
+ .col-lg-3:nth-child(6n){margin-right:0;}
+}
+@media screen and (max-width: 799px) {
+#wrap { margin: 30px 10px 0 !important }
+video { max-height: 200px }
+#menu { padding: 0 15px }
+#playModal { margin-top: 150px }
+.navbar-nav>li>a{line-height:25px}
+.list-item{display:flex;flex-wrap:wrap;margin:0 -5px;}
+.col-sm-6{padding-right:5px;padding-left:5px;width:50%;}
+.thumbnail{margin-bottom:10px}
+.thumbnail .caption h3{font-size:12px;margin:0;}
+.thumbnail .caption p{display:none}
+}
+
+	/**彩色滚动条样式开始*/
+
+::-webkit-scrollbar {
+  width: 10px;  
+  height: 1px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #12b7f5;
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 93, 143, 1) 25%, transparent 25%, transparent 50%, rgba(255, 93, 143, 1) 50%, rgba(255, 93, 143, 1) 75%, transparent 75%, transparent);
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #f6f6f6;
+}
+
+/**彩色滚动条样式结束*/
