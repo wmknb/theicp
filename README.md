@@ -8,7 +8,7 @@ list.php是列表页面，wait.php是审核页面
 主题还是以前主题
 登陆方式：
 https://localhost/admin/list.php?password=密码
-这里的密码请看password.php，密码默认为19821015
+这里的密码请看password.php，密码默认为19821015,密码支持修改的
 wait.php登陆方式也是同理
 然后，
 本源码加入以后无法正常显示资料，请自行修复
